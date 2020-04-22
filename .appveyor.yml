@@ -1,0 +1,26 @@
+version: 1.0.0.{build}
+pull_requests:
+  do_not_increment_build_number: true
+image: Visual Studio 2019
+configuration:
+- Debug
+- Release
+platform: Any CPU
+dotnet_csproj:
+  patch: true
+  file: '**\*.csproj'
+  assembly_version: 1.0.0.0
+  file_version: '{version}'
+  informational_version: '{version}+$(APPVEYOR_REPO_COMMIT)'
+build:
+  parallel: true
+  verbosity: minimal
+before_build:
+- pwsh: dotnet restore
+test_script:
+- pwsh: dotnet test -c $Env:CONFIGURATION
+artifacts:
+- path: '**\*.nupkg'
+  name: NuGet package
+- path: '**\*.snupkg'
+  name: NuGet symbols package

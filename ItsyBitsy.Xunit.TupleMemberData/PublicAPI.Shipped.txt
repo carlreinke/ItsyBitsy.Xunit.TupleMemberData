@@ -1,0 +1,2 @@
+ItsyBitsy.Xunit.TupleMemberDataAttribute
+ItsyBitsy.Xunit.TupleMemberDataAttribute.TupleMemberDataAttribute(string memberName, params object[] parameters) -> void

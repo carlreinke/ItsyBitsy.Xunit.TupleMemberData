@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB449E52-4699-4CF9-849F-EE529C4E790A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItsyBitsy.Xunit.TupleMemberData", "ItsyBitsy.Xunit.TupleMemberData\ItsyBitsy.Xunit.TupleMemberData.csproj", "{815261B1-9463-4FB5-A5B8-FF5617FDADCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItsyBitsy.Xunit.TupleMemberData.Tests", "ItsyBitsy.Xunit.TupleMemberData.Tests\ItsyBitsy.Xunit.TupleMemberData.Tests.csproj", "{6A9D3A07-9995-448A-B949-94F14591215E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{815261B1-9463-4FB5-A5B8-FF5617FDADCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815261B1-9463-4FB5-A5B8-FF5617FDADCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815261B1-9463-4FB5-A5B8-FF5617FDADCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815261B1-9463-4FB5-A5B8-FF5617FDADCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9D3A07-9995-448A-B949-94F14591215E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9D3A07-9995-448A-B949-94F14591215E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9D3A07-9995-448A-B949-94F14591215E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9D3A07-9995-448A-B949-94F14591215E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68BB029-300D-490A-846C-055381A10CB5}
+	EndGlobalSection
+EndGlobal
