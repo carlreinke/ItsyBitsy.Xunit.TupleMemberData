@@ -1,2 +1,3 @@
+#nullable enable
 ItsyBitsy.Xunit.TupleMemberDataAttribute
-ItsyBitsy.Xunit.TupleMemberDataAttribute.TupleMemberDataAttribute(string memberName, params object[] parameters) -> void
+ItsyBitsy.Xunit.TupleMemberDataAttribute.TupleMemberDataAttribute(string! memberName, params object![]! parameters) -> void
