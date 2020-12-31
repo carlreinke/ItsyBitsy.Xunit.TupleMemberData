@@ -23,7 +23,7 @@ using Xunit;
 
 namespace ItsyBitsy.Xunit.TupleMemberData.Tests
 {
-    public class TupleMemberDataAttributeTests : IClassFixture<TupleMemberDataAttributeTests>, IDisposable
+    public sealed class TupleMemberDataAttributeTests : IClassFixture<TupleMemberDataAttributeTests>, IDisposable
     {
         private static int _testCasesCount;
 
